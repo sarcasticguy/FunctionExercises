@@ -4,11 +4,14 @@
 // displays the result in large text. Write the 
 // function definition that goes with this function call.
 
-multiply(5.2 ,9.0);
+int a=1;
+int b=2;
+int c=3;
+void multiply(int a, int b, int c){
+  int total=a*b*c;
+  println(total);
+}
 
-
-/*_______________________________________________________________
-_______________________________________________________________
-_______________________________________________________________
-_______________________________________________________________
-*/
+void draw(){
+  multiply(a, b, c);
+}
